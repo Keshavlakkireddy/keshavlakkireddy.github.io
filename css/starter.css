@@ -1,0 +1,101 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 900px;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;  
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 3 px;
+}
+
+div.names_buttons {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+div.names_buttons div {
+  opacity: 0.3;
+  padding: 3px;
+  margin: 7px;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}	
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 60px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #006dcc;
+    color: #FFC0CB;
+	
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+ .bar {
+            fill: steelblue;
+        }
+
+.highlight {
+            fill: orange;
+        }
+		
+	
